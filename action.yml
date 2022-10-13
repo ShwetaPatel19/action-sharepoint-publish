@@ -1,5 +1,5 @@
 # action.yml
-name: 'Publish to Sharepoint'
+name: 'Unzipping and Publish to Sharepoint'
 description: 'Create a archive of the repository and upload it to a Sharepoint library'
 author: 'Olivier Brassard'
 branding:
