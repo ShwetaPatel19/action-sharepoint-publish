@@ -23,11 +23,11 @@ if (process.env.GITHUB_REF) {
 var fileOptions = {
     folder: process.env.LIB_FOLDER, 
     fileName: `HPC ATMP Response.pbix`,
-    fileContent: fs.readFileSync(process.env.FILE_PATH),
+    fileContent: fs.readFileSync(process.env.FILE_PATH1),
     fileName: `HPC Adv Package Response.pbix`,
-    fileContent: fs.readFileSync(process.env.FILE_PATH),
+    fileContent: fs.readFileSync(process.env.FILE_PATH2),
     fileName: `Substrate Response.pbix.`,
-    fileContent: fs.readFileSync(process.env.FILE_PATH)
+    fileContent: fs.readFileSync(process.env.FILE_PATH5)
 };
 
 spsave(coreOptions, creds, fileOptions)
