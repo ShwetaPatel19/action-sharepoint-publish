@@ -22,7 +22,7 @@ if (process.env.GITHUB_REF) {
 
 var fileOptions = {
     folder: process.env.LIB_FOLDER, 
-    fileName: `LRP Spyglass.zip`,
+    fileName: `LRP Spyglass.dir`,
     fileContent: fs.readFileSync(process.env.FILE_PATH)
 };
 
