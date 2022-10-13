@@ -3,8 +3,8 @@
 echo "Creating archive";
 mkdir /out
 cd $GITHUB_WORKSPACE
-dir -r /out/repoarchive.dir ./* -x .git/*
-export FILE_PATH='/out/repoarchive.dir'
+
+export FILE_PATH= $GITHUB_WORKSPACE
 
 node /app/index.js
 [ $? -eq 0 ]  || exit 1
