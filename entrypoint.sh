@@ -10,7 +10,7 @@ cp "HPC Demand Requirements.pbix" /out
 cp "Substrate Response.pbix" /out
 cp "Wafer Response.pbix" /out
 
-export FILE_PATH='/out/*'
+export FILE_PATH='/out'
 
 
 node /app/index.js
